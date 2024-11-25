@@ -1,59 +1,94 @@
 <!DOCTYPE html>
 <!-- 
-	Student Name: firstname lastname
+    Student Name: Edgar Armendariz
 	File Name: index.html
-	Today's Date: 01/01/2020
+	Current Date: 11/19/2024
  -->
 <html lang="en">
 <head>
-	<title>Strike a Chord: Home Page</title>
+	<title></title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:400i|Roboto&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
 
-	<header>
-		<h1> <span class="tab-desk">&#9836;</span> Strike a Chord <span class="tab-desk">&#9836;</span> </h1>
-	</header>
-	
-	<nav>
-		<ul>
-            <li><a href="index.html">Home</a></li>  
-            <li><a href="lessons.html">Lessons</a></li>   
-            <li><a href="instructors.html">Instructors</a></li>    
-            <li><a href="rentals.html">Rentals</a></li>    
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-	</nav>
-    
-    <!-- Hero Image -->
-    <div id="hero" class="tab-desk">
-        <img src="images/music-notes.png" alt="colorful music notes">
-    </div>
-	
-	<!-- Use the main area to add the main content to the webpage -->
-	<main>
-		
-        <div id="intro">
-            
-            <p>Welcome to Strike a Chord. We are a local music store, specializing in lessons and rental equipment. Our mission is to provide world-class instruction with each music lesson.</p>
+	<div id="container">
 
-            <p>We provide lessons for several musical instruments, including piano, guitar, and violin. Your first two lessons are <span class="action">FREE</span>. Contact us today to get started!</p>
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <h1>Event Videos</h1>
+        </header>
+
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
             
-        </div>
-		
-	</main>
-	
-	<footer>
-		<p>&copy; Copyright 2021. All Rights Reserved.</p>
-		<p><a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
-	</footer>
+            <section>
+                
+                <h3>Let Us Make Your Video</h3>
+                <p>Did you just get married? Have your child's first birthday party? Experience an unforgettable vacation? Let us make a video with your most memorable photos!</p>
+
+            </section>
+
+            <section>
+
+                <h3>Step 1: Upload Your Photos</h3>
+
+                <form>
+                    <input type="file">
+                </form>
+
+            </section>
+            
+            <section>
+
+                <h3>Step 2: Select Your Music</h3>
+                <p>We take pride in every video we create. Please select the music you want for your video.</p>
+
+            </section>
+            
+            <section>
+                
+                <h3>Music Option 1</h3>
+                <audio controls>
+				<source src="media/audio-happy.mp3" type="audio/mp3">
+				<source src="media/audio-happy.ogg" type="audio/ogg">
+				<p>Your legacy browser does not support the audio element.</p>
+				</audio>
+            </section>
+            
+            <section>
+                
+                <h3>Music Option 2</h3>
+                <audio controls>
+				<source src="media/audio-rock.mp3" type="audio/mp3">
+				<source src="media/audio-rock.ogg" type="audio/ogg">
+				<p>Your legacy browser does not support the audio element.</p>
+				</audio>
+            </section>
+            
+            <section>
+                
+                <h3>Music Option 3</h3>
+                <audio controls>
+				<source src="media/audio-tech.mp3" type="audio/mp3">
+				<source src="media/audio-tech.ogg" type="audio/ogg">
+				<p>Your legacy browser does not support the audio element.</p>
+				</audio>
+            </section>
+
+        </main>
+		<video width="100%" height="240" controls="controls">
+			<source src="media/video-dance.mp4" type="video/mp4">
+			<track src=“media/captions.vtt” kind=“captions” srclang=“en” label=“Captions”>
+			<track src=“media/descriptions.vtt” kind=“descriptions” srclang=“en” label=“English Descriptions”>
+			<p>Your browser does not support the video element.</p>
+		</video>
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>Created by: Edgar Armendariz</p>
+        </footer>
+
+	</div>
 	
 </body>
 </html>
